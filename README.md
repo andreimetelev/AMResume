@@ -1,2 +1,0 @@
-# AMResume
-Andrei Metelev Resume
