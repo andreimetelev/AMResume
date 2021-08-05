@@ -6,18 +6,34 @@
 }
 
 .nav__link {
-    padding: 1rem 2rem;
     font-size: 1.4rem;
     color: @black;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-
-    border: 2px solid transparent;
-    border-radius: 20px;
+    margin-left: 3rem;
+    position: relative;
+   
     
-    &:hover,
-    &.active {
-        border-color: @black;
+
+    &:after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: @orange;
+
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        z-index: 1;
+
+        transition: width
+        .2s linear;
+    }
+    
+    &:hover {
+        &:after {
+            width: 100%;
+        }
     }
 }
