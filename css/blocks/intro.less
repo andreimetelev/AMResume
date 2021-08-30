@@ -2,14 +2,23 @@
 
 .intro__inner {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 120px;
 }
 
 .intro__photo {
    width: 50%;
-   height: 50%;
-   border-radius: 35%;
+   height: auto;
+   border-radius: 2rem;
+   position: relative;
+}
+
+.intro__img {
+    position: inherit;
+    z-index: -1;
+    border-radius: 2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
 .intro__content {
