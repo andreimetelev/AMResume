@@ -6,91 +6,171 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>AMResume</title>
 </head>
 
 <body>
-    <!-- Header-->
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-
-                <div class="creator">
-                    <div class="creator__avatar">
-                        <img src="../AMResume/images/creator__avatar.jpg" alt="avatar">
-                    </div>
-                    <div class="creator__content">
-                        <div class="creator__name">Andrei<br> Metelev</div>
-                        <div class="creator__prof">Frontend Developer</div>
-                    </div>
+   <div class="container">
+       <div class="left__column">
+            <div class="profile">
+                <div class="profile__photo">
+                    <img class="profile__img" src="../AMResume/images/2.JPG" alt="1">
                 </div>
+                <h2 class="profile__name">Andrei Metelev<br><span class="profile__description">Front-end Developer</span></h2>
+            </div>
 
-                <nav class="nav">
-                    <a class="nav__link" href="#">About me</a>
-                    <a class="nav__link" href="#">Resume</a>
-                    <a class="nav__link" href="#">Work</a>
-                    <a class="nav__link" href="#">Contact</a>
-                </nav>
+            <div class="left__section">
+                <h3 class="section__caption">Contact Info</h3>
+                <ul class="left__section__list">
+                    <li class="left__section__item">
+                        <span class="section__icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="section__text">+79263113911</span>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__icon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
+                        <span class="section__text">Joultiy@gmail.com</span>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                        <a class="section__link" href="https://github.com/andreimetelev">GitHub</a>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <a class="section__link" href="https://www.linkedin.cn/in/andreimetelev/">Linkedin</a>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="section__text">Россия г.Москва</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="left__section">
+                <h3 class="section__caption">Education</h3>
+                <ul class="left__section__list">
+                    <li class="left__section__item">
+                        <h5 class ="section__title">What books have I read</h5>
+                        <h4 class ="section__subtitle">1. JavaScript. The Complete Guide. Written by Flanagan David.</h4>
+                        <h3 class ="section__text"></h3>
+                    </li>
+                    <li class="left__section__item">
+                        <h5 class ="section__title"></h5>
+                        <h4 class ="section__subtitle">2. Eloquent JavaScript. Written by Marin Haverbeke.</h4>
+                        <a class="section__link" href="https://karmazzin.gitbook.io/eloquentjavascript_ru/">Book</a>
+                        <h3 class ="section__text"></h3>
+                    </li>
+                    <li class="left__section__item">
+                        <h5 class ="section__title">Self-study</h5>
+                        <h4 class ="section__subtitle">I find information on the Internet and independently study HTML, CSS, JavaScript, LESS, React, Algorithms.</h4>
+                        <h3 class ="section__text"></h3>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="left__section">
+
+                <h3 class="section__caption">Languages</h3>
+                <ul class="left__section__list">
+                    <li class="left__section__item">
+                        <span class="section__title">English</span>
+                        <span class="section__level">
+                            <div  class="section__volume" style="width: 20%;"></div>
+                        </span>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__title">Deutch</span>
+                        <span class="section__level">
+                            <div class="section__volume" style="width: 20%;"></div>
+                        </span>
+                    </li>
+                    <li class="left__section__item">
+                        <span class="section__title">Russian</span>
+                        <span class="section__level">
+                            <div class="section__volume"style="width: 90%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+       </div>
+       <!-- left__column -->
+
+       <div class="right__column">
+
+           <div class="right__section">
+               <h2 class="section__caption">Profile</h2>
+               <p class="section__text">
+                Hi, I'm Andrey Metelev Front-end developer. In 2021, I got carried away by studying programming and web application development. The programming world is huge, and I have become, albeit small, but a part of this world. I have worked in different companies and in different positions. In my work, I have always completed the assigned tasks with high quality and on time. I'm not afraid to take responsibility. I like to do interesting and challenging tasks. I quickly learn new things and put them into practice. I am learning the basics of web development on my own. I'm also developing along the path of a React developer.
+                <br/>
+               </p>
+           </div>
+
+           <div class="right__section">
+            <h2 class="section__caption">Progress</h2>
+            <div class="right__section__box">
+                <div class="right__section__box__info">
+                    <h5 class="section__title">2021</h5>
+                    <h4 class="section__subtitle">Test task</h4>
+                </div>
+                <div>
+                    <h4 class="section__subtitle">Description</h4>
+                    <p class="section__text">
+                        A test task has been completed - site layout based on the Figma template. In my work, I used the Sass preprocessor.The layout was carried out according to the BEM methodology, as well as taking into account simantics, cross-browser compatibility and adaptability.</p>
+                    <a class="section__link" href="https://andreimetelev.github.io/BlackwallTest/">GitHub Pages</a> 
+                </div>
             </div>
         </div>
-    </header>
 
-
-    <!-- Intro -->
-    <section class="intro">
-        <div class="container">
-            <div class="intro__inner">
-                <div class="intro__photo" >
-                <img  class="intro__img" src="../AMResume/images/creator__photo5.JPG" alt="">
+        <div class="right__section">
+            <h2 class="section__caption">Progress</h2>
+            <div class="right__section__box">
+                <div class="right__section__box__info">
+                    <h5 class="section__title">2021</h5>
+                    <h4 class="section__subtitle">Portfolio</h4>
                 </div>
-                <div class="intro__content">
-                    <h1 class="intro__title">Hello, I'm Andrei Metelev</h1>
-                    <h2 class="intro__subtitle">Frontend Developer</h2>
+                <div>
+                    <h4 class="section__subtitle">Description</h4>
+                    <p class="section__text">Made a website using React. The site is made in the form of a portfolio where I will eventually add interesting development elements that I have studied and applied in practice, as well as the work and orders I have completed.The employer will also be able to assess my knowledge.</p>
+                <a class="section__link" href=" https://andreimetelev.github.io/AMPortfolio/">GitHub Pages</a>
                 </div>
             </div>
-            <!-- /.intro__inner -->
         </div>
-        <!-- /.container -->
-    </section>
 
-    <!-- about -->
-    <section class="about">
-        <div class="container">
-
-            <div class="about__hat">
-                <h3 class="about__suptitle">About Me</h3>
-                <h2 class="about__title">My Story</h2>
-                <div class="about__text">
-                    <p>
-                        Every person has a hobby. Here are a few of my</p>
-                </div>
-            </div>
-
-            <div class="hobby">
-                <div class="hobby__card">
-                    <div class="hobby__img">
-                        <img src="../AMResume/images/hobby/food preparation.jpg" alt="">
-                    </div>
-                    <div class="hobby__text">to cook</div>
-                </div>
-                <div class="hobby__card">
-                    <div class="hobby__img">
-                        <img src="../AMResume/images/hobby/skating.jpg" alt="">
-                    </div>
-                    <div class="hobby__text">rollerblading</div>
-                </div>
-                <div class="hobby__card">
-                    <div class="hobby__img">
-                        <img src="../AMResume/images/hobby/learning to play the guitar1.jpg" alt="">
-                    </div>
-                    <div class="hobby__text">playing guitar</div>
-                </div>
-            </div>
-            <!-- hobby -->
-
+       <div class="right__section">
+        <h2 class="section__caption">My Road map</h2>
+        <div class="skills__box">
+            <h4 class="section__title">HTML:</h4>
+            <p class="section__text">Semantic, Accessibility, Validation.</p>
         </div>
-        <!-- container -->
-    </section>
+        <div class="skills__box">
+            <h4 class="section__title">CSS:</h4>
+            <p class="section__text">Flexbox, MediaQueries, preprocessor Less.</p>
+        </div>
+        <div class="skills__box">
+            <h4 class="section__title">JavaScript:</h4>
+            <p class="section__text">JS Patterns, Data Structures, Algorithms, Big O Notation.</p>
+        </div>
+        <div class="skills__box">
+            <h4 class="section__title">Frameworks:</h4>
+            <p class="section__text">React, Redux.</p>
+        </div>
+       </div>
+
+       <div class="right__section">
+        <h2 class="section__caption">Interests</h2>
+        <ul class="right__section__list">
+            <li class="right__section__item"><i class="fa fa-gamepad" aria-hidden="true"></i>Games</li>
+            <li class="right__section__item"><i class="fa fa-book" aria-hidden="true"></i>Books</li>
+            <li class="right__section__item"><i class="fa fa-cutlery" aria-hidden="true"></i>Cook</li>
+            <li class="right__section__item"><i class="fa fa-plane" aria-hidden="true"></i>Trips</li>
+            <li class="right__section__item"><i class="fa fa-leaf" aria-hidden="true"></i>Gardening</li>
+        </ul>
+        </div>
+        
+       </div>
+       <!-- right__column -->
+   </div>
+   <!-- container -->
 
 </body>
 

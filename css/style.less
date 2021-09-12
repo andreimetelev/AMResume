@@ -10,6 +10,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: @black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:   #31344e url(../images/4.jpg) center no-repeat;
+    background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,9 +30,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Blocks */
 @import "../css/blocks/container";
-@import "../css/blocks/header";
-@import "../css/blocks/creator";
-@import "../css/blocks/nav";
-@import "../css/blocks/intro";
-@import "../css/blocks/about";
-@import "../css/blocks/hobby";
+@import "../css/blocks/columns.less";
+@import "../css/blocks/profile.less";
+@import "../css/blocks/section.less";
+@import "../css/blocks/sectionLeft.less";
+@import "../css/blocks/sectionRight.less";
+@import "../css/blocks/skills.less";
+
+
+
+
+
+
